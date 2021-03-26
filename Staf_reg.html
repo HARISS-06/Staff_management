@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Staf_reg</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+	body
+	{
+  background-image: url("kec.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+		background-color:blanchedalmond;
+	}
+	.f1{
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		font-size: 40px;
+	}
+	.f2{
+		font-style: italic;
+		font-size: 80;
+	}
+	.f3
+	{
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		font-size: 20px;
+	}
+	
+</style>
+<body>
+	<p class="f1" align="center">Staff Registration</p>
+	<form action="reg2.php" method="post">
+	  <p class="f3">First Name:<input type="text" name="fname" required></p>
+		<p class="f3">Last Name:<input type="text" name="lname" required></p>
+		<p class="f3">Password:<input type="password" name="pass" required></p>
+		<p class="f3">ID Number:<input type="number" name="id" required></p>
+		<p class="f3">Mobile Number:<input type="number" name="mob" required></p>
+		<p class="f3">Date of Birth:<input type="date" name="dob" required></p>
+		<p class="f3">Email Id:<input type="email" name="mailid" required></p>
+		<p class="f3">Department:<input type="text" name="dept" required></p>
+		<input type="submit" value="Register" name="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" value="Reset">
+	</form>
+	<a href="Home page.html"><br><p class="f3"><strong>Home</strong></p></a>
+	
+</body>
+</html>
