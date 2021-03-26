@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Staff_att</title>
+	<style>
+	body
+	{
+  background-image: url("kec.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+		background-color:blanchedalmond;
+	}
+	.f1{
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		font-size: 40px;
+	}
+	.f2{
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		font-style: italic;
+		font-size: 20px;
+	}
+	
+</style>
+</head>
+
+<body>
+	<p class="f1"><strong><em>Staff Attendance</em></strong></p>
+	<form>
+	<p class="f2"><strong>Select date:</strong>&nbsp;&nbsp;&nbsp;<input type="date" id="Select" name="Select" value="2021-03-26" min="2021-01-01" max="2021-12-31"></p>
+		<p class="f2">
+		<input type="radio" id="att" name="Present" value="Present">
+	<strong><label for="Present">Present</label></strong>
+			<br>
+			<input type="radio" id="att" name="Absent" value="absent">
+			<label for="Absent"><strong>Absent</strong></label>
+		</p>
+	</form>
+</body>
+</html>
